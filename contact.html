@@ -52,5 +52,15 @@
     <p>© 2025 Rhavelyn Alira</p>
   </footer>
 
+  <img id="cat" src="krsr.png" alt="cat" style="position:absolute; width:60px; pointer-events: none;">
+
+<script>
+  const cat = document.getElementById('cat');
+  document.addEventListener('mousemove', (e) => {
+    cat.style.left = e.pageX + 'px';
+    cat.style.top = e.pageY + 'px';
+  });
+</script>
+  
 </body>
 </html>
