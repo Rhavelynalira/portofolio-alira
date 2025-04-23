@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Projects - Rhavelyn Alira</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Rhavelyn Alira</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="projects">
+      <h2>My Projects ✨</h2>
+
+      <div class="project-card">
+        <img src="WEBBB.jpg" alt="Project Screenshot" class="project-img">
+        <div class="project-info">
+          <h3>🌸 Personal Portfolio</h3>
+          <p>My first personal website made with love using HTML, CSS, and pastel magic ✨</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="UIUXXX.jpg" alt="Project Screenshot" class="project-img">
+        <div class="project-info">
+        <h3>📱 UI/UX Mobile App Design</h3>
+        <p>Created a soothing health-tracking mobile app prototype using Figma with a focus on calming user experience and intuitive navigation.</p>
+        <p>This project is a design prototype created in Figma, focusing on providing a soothing and calming experience for users while tracking their health goals. The design includes intuitive navigation, pleasant color schemes, and accessible elements for easy use 🌟</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="UMKMM.jpg" alt="Project Screenshot" class="project-img">
+        <div class="project-info">
+        <h3>🛍️ UMKM Website Design</h3>
+        <p>Created a user-friendly and responsive website design for a small business, focusing on showcasing their products and services effectively. The design incorporates a clean layout, easy navigation, and mobile optimization, aimed at helping small businesses improve their online presence 🏪</p>
+        </div>
+      </div>
+
+      <div class="project-card upcoming">
+        <h3>✨ More projects coming soon...</h3>
+        <p>Stay tuned! I'm always learning and building something new 💻🌸</p>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer>
+    <p>© 2025 Rhavelyn Alira</p>
+  </footer>
+
+  <img id="cat" src="krsr.png" alt="cat" style="position:absolute; width:60px; pointer-events: none;">
+
+<script>
+  const cat = document.getElementById('cat');
+  document.addEventListener('mousemove', (e) => {
+    cat.style.left = e.pageX + 'px';
+    cat.style.top = e.pageY + 'px';
+  });
+</script>
+
+</body>
+</html>
